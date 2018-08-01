@@ -14,11 +14,17 @@ class GoalCell: UITableViewCell {
     @IBOutlet weak var lblGoalDescription: UILabel!
     @IBOutlet weak var lblGoalType: UILabel!
     @IBOutlet weak var lblGoalProgress: UILabel!
+    @IBOutlet weak var completionView: UIView!
     
-    func configureCell(description: String, type: GoalType, goalProgress: Int) {
-        lblGoalDescription.text = description
-        lblGoalType.text = type.rawValue
-        lblGoalProgress.text = String(describing: goalProgress)
+    func configureCell(goal: Goal) {
+        lblGoalDescription.text = goal.goalDescription
+        lblGoalType.text = goal.goalType
+        lblGoalProgress.text = String(describing: goal.goalProgress)
+        
+        if goal.goalProgress == goal.goalCompletionValue {
+            self.completionView.isHidden = false
+        } else {
+            self.completionView.isHidden = true
+        }
     }
-    
 }
