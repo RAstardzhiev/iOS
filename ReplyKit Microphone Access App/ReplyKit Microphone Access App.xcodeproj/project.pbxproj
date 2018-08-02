@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E98BC8EF2112F05500EBF654 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98BC8EE2112F05500EBF654 /* AppDelegate.swift */; };
+		E98BC8F12112F05500EBF654 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98BC8F02112F05500EBF654 /* ViewController.swift */; };
+		E98BC8F42112F05500EBF654 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E98BC8F22112F05500EBF654 /* Main.storyboard */; };
+		E98BC8F72112F05500EBF654 /* ReplyKit_Microphone_Access_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E98BC8F52112F05500EBF654 /* ReplyKit_Microphone_Access_App.xcdatamodeld */; };
+		E98BC8F92112F05500EBF654 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E98BC8F82112F05500EBF654 /* Assets.xcassets */; };
+		E98BC8FC2112F05500EBF654 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E98BC8FA2112F05500EBF654 /* LaunchScreen.storyboard */; };
+		E98BC9072112F05500EBF654 /* ReplyKit_Microphone_Access_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98BC9062112F05500EBF654 /* ReplyKit_Microphone_Access_AppTests.swift */; };
+		E98BC9122112F05600EBF654 /* ReplyKit_Microphone_Access_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98BC9112112F05500EBF654 /* ReplyKit_Microphone_Access_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E98BC9032112F05500EBF654 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E98BC8E32112F05500EBF654 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E98BC8EA2112F05500EBF654;
+			remoteInfo = "ReplyKit Microphone Access App";
+		};
+		E98BC90E2112F05500EBF654 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E98BC8E32112F05500EBF654 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E98BC8EA2112F05500EBF654;
+			remoteInfo = "ReplyKit Microphone Access App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E98BC8EB2112F05500EBF654 /* ReplyKit Microphone Access App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReplyKit Microphone Access App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E98BC8EE2112F05500EBF654 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E98BC8F02112F05500EBF654 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E98BC8F32112F05500EBF654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E98BC8F62112F05500EBF654 /* ReplyKit_Microphone_Access_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReplyKit_Microphone_Access_App.xcdatamodel; sourceTree = "<group>"; };
+		E98BC8F82112F05500EBF654 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E98BC8FB2112F05500EBF654 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E98BC8FD2112F05500EBF654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E98BC9022112F05500EBF654 /* ReplyKit Microphone Access AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReplyKit Microphone Access AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E98BC9062112F05500EBF654 /* ReplyKit_Microphone_Access_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplyKit_Microphone_Access_AppTests.swift; sourceTree = "<group>"; };
+		E98BC9082112F05500EBF654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E98BC90D2112F05500EBF654 /* ReplyKit Microphone Access AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReplyKit Microphone Access AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E98BC9112112F05500EBF654 /* ReplyKit_Microphone_Access_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplyKit_Microphone_Access_AppUITests.swift; sourceTree = "<group>"; };
+		E98BC9132112F05600EBF654 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E98BC8E82112F05500EBF654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E98BC8FF2112F05500EBF654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E98BC90A2112F05500EBF654 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E98BC8E22112F05500EBF654 = {
+			isa = PBXGroup;
+			children = (
+				E98BC8ED2112F05500EBF654 /* ReplyKit Microphone Access App */,
+				E98BC9052112F05500EBF654 /* ReplyKit Microphone Access AppTests */,
+				E98BC9102112F05500EBF654 /* ReplyKit Microphone Access AppUITests */,
+				E98BC8EC2112F05500EBF654 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E98BC8EC2112F05500EBF654 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E98BC8EB2112F05500EBF654 /* ReplyKit Microphone Access App.app */,
+				E98BC9022112F05500EBF654 /* ReplyKit Microphone Access AppTests.xctest */,
+				E98BC90D2112F05500EBF654 /* ReplyKit Microphone Access AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E98BC8ED2112F05500EBF654 /* ReplyKit Microphone Access App */ = {
+			isa = PBXGroup;
+			children = (
+				E98BC8EE2112F05500EBF654 /* AppDelegate.swift */,
+				E98BC8F02112F05500EBF654 /* ViewController.swift */,
+				E98BC8F22112F05500EBF654 /* Main.storyboard */,
+				E98BC8F82112F05500EBF654 /* Assets.xcassets */,
+				E98BC8FA2112F05500EBF654 /* LaunchScreen.storyboard */,
+				E98BC8FD2112F05500EBF654 /* Info.plist */,
+				E98BC8F52112F05500EBF654 /* ReplyKit_Microphone_Access_App.xcdatamodeld */,
+			);
+			path = "ReplyKit Microphone Access App";
+			sourceTree = "<group>";
+		};
+		E98BC9052112F05500EBF654 /* ReplyKit Microphone Access AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E98BC9062112F05500EBF654 /* ReplyKit_Microphone_Access_AppTests.swift */,
+				E98BC9082112F05500EBF654 /* Info.plist */,
+			);
+			path = "ReplyKit Microphone Access AppTests";
+			sourceTree = "<group>";
+		};
+		E98BC9102112F05500EBF654 /* ReplyKit Microphone Access AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E98BC9112112F05500EBF654 /* ReplyKit_Microphone_Access_AppUITests.swift */,
+				E98BC9132112F05600EBF654 /* Info.plist */,
+			);
+			path = "ReplyKit Microphone Access AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E98BC8EA2112F05500EBF654 /* ReplyKit Microphone Access App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E98BC9162112F05600EBF654 /* Build configuration list for PBXNativeTarget "ReplyKit Microphone Access App" */;
+			buildPhases = (
+				E98BC8E72112F05500EBF654 /* Sources */,
+				E98BC8E82112F05500EBF654 /* Frameworks */,
+				E98BC8E92112F05500EBF654 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ReplyKit Microphone Access App";
+			productName = "ReplyKit Microphone Access App";
+			productReference = E98BC8EB2112F05500EBF654 /* ReplyKit Microphone Access App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E98BC9012112F05500EBF654 /* ReplyKit Microphone Access AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E98BC9192112F05600EBF654 /* Build configuration list for PBXNativeTarget "ReplyKit Microphone Access AppTests" */;
+			buildPhases = (
+				E98BC8FE2112F05500EBF654 /* Sources */,
+				E98BC8FF2112F05500EBF654 /* Frameworks */,
+				E98BC9002112F05500EBF654 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E98BC9042112F05500EBF654 /* PBXTargetDependency */,
+			);
+			name = "ReplyKit Microphone Access AppTests";
+			productName = "ReplyKit Microphone Access AppTests";
+			productReference = E98BC9022112F05500EBF654 /* ReplyKit Microphone Access AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E98BC90C2112F05500EBF654 /* ReplyKit Microphone Access AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E98BC91C2112F05600EBF654 /* Build configuration list for PBXNativeTarget "ReplyKit Microphone Access AppUITests" */;
+			buildPhases = (
+				E98BC9092112F05500EBF654 /* Sources */,
+				E98BC90A2112F05500EBF654 /* Frameworks */,
+				E98BC90B2112F05500EBF654 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E98BC90F2112F05500EBF654 /* PBXTargetDependency */,
+			);
+			name = "ReplyKit Microphone Access AppUITests";
+			productName = "ReplyKit Microphone Access AppUITests";
+			productReference = E98BC90D2112F05500EBF654 /* ReplyKit Microphone Access AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E98BC8E32112F05500EBF654 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "eDynamix Global";
+				TargetAttributes = {
+					E98BC8EA2112F05500EBF654 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					E98BC9012112F05500EBF654 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E98BC8EA2112F05500EBF654;
+					};
+					E98BC90C2112F05500EBF654 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E98BC8EA2112F05500EBF654;
+					};
+				};
+			};
+			buildConfigurationList = E98BC8E62112F05500EBF654 /* Build configuration list for PBXProject "ReplyKit Microphone Access App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E98BC8E22112F05500EBF654;
+			productRefGroup = E98BC8EC2112F05500EBF654 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E98BC8EA2112F05500EBF654 /* ReplyKit Microphone Access App */,
+				E98BC9012112F05500EBF654 /* ReplyKit Microphone Access AppTests */,
+				E98BC90C2112F05500EBF654 /* ReplyKit Microphone Access AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E98BC8E92112F05500EBF654 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98BC8FC2112F05500EBF654 /* LaunchScreen.storyboard in Resources */,
+				E98BC8F92112F05500EBF654 /* Assets.xcassets in Resources */,
+				E98BC8F42112F05500EBF654 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E98BC9002112F05500EBF654 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E98BC90B2112F05500EBF654 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E98BC8E72112F05500EBF654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98BC8F12112F05500EBF654 /* ViewController.swift in Sources */,
+				E98BC8EF2112F05500EBF654 /* AppDelegate.swift in Sources */,
+				E98BC8F72112F05500EBF654 /* ReplyKit_Microphone_Access_App.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E98BC8FE2112F05500EBF654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98BC9072112F05500EBF654 /* ReplyKit_Microphone_Access_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E98BC9092112F05500EBF654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E98BC9122112F05600EBF654 /* ReplyKit_Microphone_Access_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E98BC9042112F05500EBF654 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E98BC8EA2112F05500EBF654 /* ReplyKit Microphone Access App */;
+			targetProxy = E98BC9032112F05500EBF654 /* PBXContainerItemProxy */;
+		};
+		E98BC90F2112F05500EBF654 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E98BC8EA2112F05500EBF654 /* ReplyKit Microphone Access App */;
+			targetProxy = E98BC90E2112F05500EBF654 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E98BC8F22112F05500EBF654 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E98BC8F32112F05500EBF654 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E98BC8FA2112F05500EBF654 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E98BC8FB2112F05500EBF654 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E98BC9142112F05600EBF654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E98BC9152112F05600EBF654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E98BC9172112F05600EBF654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ReplyKit Microphone Access App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NaN.ReplyKit-Microphone-Access-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E98BC9182112F05600EBF654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ReplyKit Microphone Access App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NaN.ReplyKit-Microphone-Access-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E98BC91A2112F05600EBF654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ReplyKit Microphone Access AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NaN.ReplyKit-Microphone-Access-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReplyKit Microphone Access App.app/ReplyKit Microphone Access App";
+			};
+			name = Debug;
+		};
+		E98BC91B2112F05600EBF654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ReplyKit Microphone Access AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NaN.ReplyKit-Microphone-Access-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReplyKit Microphone Access App.app/ReplyKit Microphone Access App";
+			};
+			name = Release;
+		};
+		E98BC91D2112F05600EBF654 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "ReplyKit Microphone Access AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NaN.ReplyKit-Microphone-Access-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ReplyKit Microphone Access App";
+			};
+			name = Debug;
+		};
+		E98BC91E2112F05600EBF654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "ReplyKit Microphone Access AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NaN.ReplyKit-Microphone-Access-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ReplyKit Microphone Access App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E98BC8E62112F05500EBF654 /* Build configuration list for PBXProject "ReplyKit Microphone Access App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E98BC9142112F05600EBF654 /* Debug */,
+				E98BC9152112F05600EBF654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E98BC9162112F05600EBF654 /* Build configuration list for PBXNativeTarget "ReplyKit Microphone Access App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E98BC9172112F05600EBF654 /* Debug */,
+				E98BC9182112F05600EBF654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E98BC9192112F05600EBF654 /* Build configuration list for PBXNativeTarget "ReplyKit Microphone Access AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E98BC91A2112F05600EBF654 /* Debug */,
+				E98BC91B2112F05600EBF654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E98BC91C2112F05600EBF654 /* Build configuration list for PBXNativeTarget "ReplyKit Microphone Access AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E98BC91D2112F05600EBF654 /* Debug */,
+				E98BC91E2112F05600EBF654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E98BC8F52112F05500EBF654 /* ReplyKit_Microphone_Access_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E98BC8F62112F05500EBF654 /* ReplyKit_Microphone_Access_App.xcdatamodel */,
+			);
+			currentVersion = E98BC8F62112F05500EBF654 /* ReplyKit_Microphone_Access_App.xcdatamodel */;
+			path = ReplyKit_Microphone_Access_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E98BC8E32112F05500EBF654 /* Project object */;
+}
