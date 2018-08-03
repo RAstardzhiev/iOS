@@ -16,6 +16,10 @@
 	<string>BNDL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
+	<key>NSCameraUsageDescription</key>
+	<string>To take photo.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>To show you photo.</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 </dict>

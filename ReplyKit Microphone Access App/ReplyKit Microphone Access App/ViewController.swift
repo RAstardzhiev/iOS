@@ -10,8 +10,6 @@ import UIKit
 import ReplayKit
 
 class ViewController: UIViewController, RPPreviewViewControllerDelegate {
-    
-    
     @IBOutlet weak var statusLbl: UILabel!
     @IBOutlet weak var imagePicker: UISegmentedControl!
     @IBOutlet weak var selectedImageView: UIImageView!

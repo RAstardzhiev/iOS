@@ -11,13 +11,14 @@
 		E9419F872111A1D500A6B477 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9419F862111A1D500A6B477 /* UIViewExt.swift */; };
 		E9419F892111A7CA00A6B477 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9419F882111A7CA00A6B477 /* UIButtonExt.swift */; };
 		E9419F8B2111AE1B00A6B477 /* FinishGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9419F8A2111AE1B00A6B477 /* FinishGoalVC.swift */; };
+		E96C38902113438900017911 /* UIButtonExtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96C388F2113438900017911 /* UIButtonExtTests.swift */; };
+		E96C38962113556C00017911 /* CreateGoalVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96C38952113556C00017911 /* CreateGoalVCTests.swift */; };
 		E9C9257E211099600063B182 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C9257D211099600063B182 /* AppDelegate.swift */; };
 		E9C92580211099600063B182 /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C9257F211099600063B182 /* GoalsVC.swift */; };
 		E9C92583211099600063B182 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9C92581211099600063B182 /* Main.storyboard */; };
 		E9C92586211099600063B182 /* Persistent_Goal_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9C92584211099600063B182 /* Persistent_Goal_App.xcdatamodeld */; };
 		E9C92588211099600063B182 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9C92587211099600063B182 /* Assets.xcassets */; };
 		E9C9258B211099600063B182 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9C92589211099600063B182 /* LaunchScreen.storyboard */; };
-		E9C92596211099600063B182 /* Persistent_Goal_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C92595211099600063B182 /* Persistent_Goal_AppTests.swift */; };
 		E9C925A1211099600063B182 /* Persistent_Goal_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C925A0211099600063B182 /* Persistent_Goal_AppUITests.swift */; };
 		E9C925B32110A7A10063B182 /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C925B22110A7A10063B182 /* GoalCell.swift */; };
 		E9C925B52110B7460063B182 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C925B42110B7460063B182 /* GoalType.swift */; };
@@ -46,6 +47,9 @@
 		E9419F862111A1D500A6B477 /* UIViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		E9419F882111A7CA00A6B477 /* UIButtonExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
 		E9419F8A2111AE1B00A6B477 /* FinishGoalVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinishGoalVC.swift; sourceTree = "<group>"; };
+		E96C388E2113438900017911 /* Persistent Goal AppTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Persistent Goal AppTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		E96C388F2113438900017911 /* UIButtonExtTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtTests.swift; sourceTree = "<group>"; };
+		E96C38952113556C00017911 /* CreateGoalVCTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGoalVCTests.swift; sourceTree = "<group>"; };
 		E9C9257A211099600063B182 /* Persistent Goal App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Persistent Goal App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9C9257D211099600063B182 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9C9257F211099600063B182 /* GoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsVC.swift; sourceTree = "<group>"; };
@@ -55,7 +59,6 @@
 		E9C9258A211099600063B182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9C9258C211099600063B182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9C92591211099600063B182 /* Persistent Goal AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Persistent Goal AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9C92595211099600063B182 /* Persistent_Goal_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistent_Goal_AppTests.swift; sourceTree = "<group>"; };
 		E9C92597211099600063B182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9C9259C211099600063B182 /* Persistent Goal AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Persistent Goal AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9C925A0211099600063B182 /* Persistent_Goal_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistent_Goal_AppUITests.swift; sourceTree = "<group>"; };
@@ -130,8 +133,10 @@
 		E9C92594211099600063B182 /* Persistent Goal AppTests */ = {
 			isa = PBXGroup;
 			children = (
-				E9C92595211099600063B182 /* Persistent_Goal_AppTests.swift */,
+				E96C388F2113438900017911 /* UIButtonExtTests.swift */,
+				E96C388E2113438900017911 /* Persistent Goal AppTests-Bridging-Header.h */,
 				E9C92597211099600063B182 /* Info.plist */,
+				E96C38952113556C00017911 /* CreateGoalVCTests.swift */,
 			);
 			path = "Persistent Goal AppTests";
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 					};
 					E9C92590211099600063B182 = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						TestTargetID = E9C92579211099600063B182;
 					};
@@ -332,7 +338,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9C92596211099600063B182 /* Persistent_Goal_AppTests.swift in Sources */,
+				E96C38902113438900017911 /* UIButtonExtTests.swift in Sources */,
+				E96C38962113556C00017911 /* CreateGoalVCTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,10 +510,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Persistent Goal AppTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NaN.Persistent-Goal-AppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Persistent Goal AppTests/Persistent Goal AppTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Persistent Goal App.app/Persistent Goal App";
 			};
@@ -517,10 +527,12 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Persistent Goal AppTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "NaN.Persistent-Goal-AppTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Persistent Goal AppTests/Persistent Goal AppTests-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Persistent Goal App.app/Persistent Goal App";
 			};
