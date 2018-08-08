@@ -27,10 +27,14 @@ class ViewController: UIViewController {
     
     @IBAction func changeColorBtnWasPressed(_ sender: Any) {
         colorView.backgroundColor = chooseColor()
+        
+        // Programatically element Generation
         label = UILabel(frame: CGRect(x: UIScreen.main.bounds.midX - 100, y: 200, width: 200, height: 30))
         label.text = "Now THAT's colorful!"
         label.textColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
         label.textAlignment = .center
+        
+        // Attach manually created label
         view.addSubview(label)
     }
     
